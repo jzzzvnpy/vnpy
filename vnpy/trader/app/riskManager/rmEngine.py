@@ -48,7 +48,7 @@ class RmEngine(object):
         self.percent = EMPTY_FLOAT          # 当前持仓比例
         self.preBalance = EMPTY_FLOAT       # 昨结
         self.balance = EMPTY_FLOAT          # 当前账号权益
-        self.avaliable = EMPTY_FLOAT        # 当前仓位可用资金
+        self.available = EMPTY_FLOAT        # 当前仓位可用资金
 
         # 强制止损相关
         self.lossLimit = 100000             # 净值亏损线
